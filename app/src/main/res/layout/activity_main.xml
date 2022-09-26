@@ -16,6 +16,7 @@
         android:layout_marginEnd="32dp"
         android:backgroundTint="#000000"
         android:text="Enviar"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -77,7 +78,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
+        android:textColorHint="#131313"
         app:boxBackgroundColor="@color/white"
+        app:hintTextColor="#131313"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.526"
@@ -93,6 +96,9 @@
             android:hint="Telefone"
             android:inputType="phone"
             android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHighlight="@color/teal_200"
+            android:textColorHint="#000000"
             android:textSize="20sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -102,7 +108,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
+        android:textColorHint="#131313"
         app:boxBackgroundColor="@color/white"
+        app:hintTextColor="#131313"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.526"
@@ -118,6 +126,9 @@
             android:hint="Mensagem"
             android:inputType="text"
             android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHighlight="@color/teal_200"
+            android:textColorHint="#131313"
             android:textSize="20sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
